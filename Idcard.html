@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnet digital</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">  
+ <style> 
+.id-card {
+    max-width: 400px;   
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(112, 36, 36, 0.76);
+    overflow: hidden;
+    background-color: linear-gradient(135deg, #2c08f7 0%,  #e6e6e6  100%);
+}
+.header {
+    background: linear-gradient(135deg, #d5eb0e 0%, #d1c408 100%);
+    padding: 20px;
+    color: white;
+}
+
+.qr-code {
+    width: 150px;
+    height: 150px;
+    background: rgb(163, 139, 139);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+ </style>   
+</head>
+<body>
+<div class ="container d-flex justify-content-center align-items-center min-vh-100">
+    <div class ="id-card">
+        <div class="header text-center" >
+            <h4 class ="mb-0" >CONTRATISTA</h4>
+        </div>
+        <div class="card-body p-4">
+            <div class="text-center">
+                <img src="arnold.jpg" class="rounded-circle mb-3" width="150" alt="profile Photo">
+               <h5 class="mb-1" style="font-size: larger;" >EDGARDO PUENTES PEREZ</h5> 
+               <P CLASS ="text-muted">Desarrollador de Software</P>
+               </div>
+        <div class ="mb-3">
+               <p class ="mb-1"><strong>ID:</strong> 72344039 </p>
+               <p class ="mb-1"><strong>RH: </strong> O+ </p>
+        </div>
+        <div class=" text-center mb-3">
+           <img src="websiteQRCode_noFrame.png" class="qr-code" alt="QR Code">
+
+        </div>
+
+        <div class =" d-flex flex-column align-items: center; text-center  gap:8px" style="width: 20rem;">
+        <img src="prixmasol.png" alt="icon" style="width: 60px; height: 60px; margin-bottom: 12px;" class="d-block mx-auto" class="d-block mx-auto">
+        <p style="text-align: center; font-size: 30px;"><b>Prixmasol SAS</b></p>
+        </div>
+        </div>
+    </div>
+</div>
+   
+</body>
+</html>
